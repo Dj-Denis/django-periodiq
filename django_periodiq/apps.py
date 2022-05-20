@@ -11,5 +11,3 @@ class DjangoPeriodiqConfig(DjangoDramatiqConfig):
         skip_delay = getattr(settings, "PERIODIQ_SKIP_DELAY", 30)
         return {"skip_delay": skip_delay}
 
-
-DjangoPeriodiqConfig.initialize()
